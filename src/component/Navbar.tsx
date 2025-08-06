@@ -7,7 +7,7 @@ export default function Navbar() {
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center space-x-3">
                     <Image
-                        src="/logoMPM.webp"
+                        src="/image/logoMPM.webp"
                         alt="Logo MPM FTUI"
                         width={50}
                         height={50}
@@ -18,6 +18,7 @@ export default function Navbar() {
                 <ul className="flex space-x-6">
                 <li><Link href="/" className="text-black hover:text-gray-400">Home</Link></li>
                 <li><Link href="/about" className="text-black hover:text-gray-400">About</Link></li>
+                <li><Link href="/structure" className="text-black hover:text-gray-400">Structure</Link></li>
                 <li><Link href="/contact" className="text-black hover:text-gray-400">Contact</Link></li>
                 </ul>
             </div>
